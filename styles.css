@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display:flex;
+    justify-content:center; /*justificar texto*/
+    align-items: center; /*centralizar iten*/
+    height: 100vh; /*altura*/
+    width: 100vw; /*largura*/
+    background-image: url(" https://source.unsplash.com/1600x900");
+
+    
+}
+.caixa-maior {
+    background-color:black; /*troca a cor do fundo*/
+    width: 95%; /*largura*/
+    max-width: 420px;
+    opacity: 0.8 ; /*opacidade transparencia do item*/
+    padding: 20px; /*espaçamendo lateral*/
+    border-radius: 20px;
+}
+h2 {
+    color: white;
+    font-size: 28px;
+    margin-top: 20px;
+}
+input  { 
+    border: none; /* borda do elemento*/
+    outline: none; /*borda quando seleciona o elemento*/
+    padding: 10px; /* espaçamento interno*/
+    border-radius: 24px; /*arredonda as bordas*/
+    background-color: #7c7c7c2b;
+    width: calc(100% - 100px);
+
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #7c7c7c6b
+}
+
+.caixa-media {
+
+    margin-top: 20px;
+}
+
+.caixa-menor {
+display: flex;
+align-items:center
+}
+.cidade {
+    margin-bottom: 10px;
+}
+
+.lupa {
+    height: 20px;
+    
+}
+
+.temp {
+color: #ffff;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.descricao{
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize; /* deixa primeira letra maiuscula*/
+    
+}
+
+
+.umidade {
+    color: white
+    
+}
+
+.input-cidade {
+    color: white;
+   
+    
+}
+.temperatura1 {
+    color: white
+}
+
+.temperatura2 {
+    color:white
+    
+}
